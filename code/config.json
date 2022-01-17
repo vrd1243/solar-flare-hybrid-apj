@@ -1,0 +1,14 @@
+{
+ "forecast_window": "12h",
+ "labels_file": "../datasets/topology_sharps_updated_for_cnn.csv",
+ "input_channels": 1,
+ "weight_decay": 1e-3,
+ "learning_rate": 1e-4,
+ "alpha_inv": 11,
+ "gamma": 0,
+ "output_dir": "../results/seed_100/",
+ "split": "by_harpnum",
+ "seed": 100,
+ "lstm": "no",
+ "seq_length": 4 
+}
